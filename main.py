@@ -52,7 +52,8 @@ class mywindow(QtWidgets.QMainWindow):
             return
 
         result = pollinom(n, p_list, m_list)
-        self.ui.result_SpinBox.setValue(result)
+        result = "{:01.8f}".format(result)
+        self.ui.resultEdit.setText(result)
 
         
 

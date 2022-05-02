@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>540</width>
+    <width>550</width>
     <height>490</height>
    </rect>
   </property>
@@ -59,24 +59,6 @@
           <string>m</string>
          </property>
         </column>
-       </widget>
-      </item>
-      <item row="1" column="1">
-       <widget class="QDoubleSpinBox" name="result_SpinBox">
-        <property name="font">
-         <font>
-          <pointsize>12</pointsize>
-         </font>
-        </property>
-        <property name="readOnly">
-         <bool>true</bool>
-        </property>
-        <property name="buttonSymbols">
-         <enum>QAbstractSpinBox::NoButtons</enum>
-        </property>
-        <property name="decimals">
-         <number>12</number>
-        </property>
        </widget>
       </item>
       <item row="0" column="0">
@@ -140,6 +122,18 @@
         </property>
        </widget>
       </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="resultEdit">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
     <item>
@@ -161,7 +155,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>540</width>
+     <width>550</width>
      <height>26</height>
     </rect>
    </property>
